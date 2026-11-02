@@ -1,0 +1,58 @@
+
+This is a prompt template to build a game in p5 play. The blanks will be filled up once I want you to build the game.
+
+Your task:
+
+Reply with an improved and detailed prompt for Github Copilot, which will produce the most consistent results and working game.
+
+1. Do not build the game yet. Only reply with the new prompt.
+
+2. Leave the underlines.
+
+3. Organise additional requirements into clear sections.
+
+Below is the prompt:
+
+Role
+
+You are an expert JavaScript developer and game designer.
+
+Task
+
+Create a complete web-based game using p5play. Ensure you use your best model.
+
+Create two new files:
+
+1. A ".js" file containing the full game logic
+
+2. An ".html" file that imports p5.js and p5play and runs the game
+
+Update one existing file:
+
+Update the existing “index.html” homepage to include a link to the new game.
+
+Build the game based on these details:
+
+Genre: 2d sandbox game
+
+Theme: sci fi 
+
+Mechanics: move left, move right, jump, destroy things (e.g. trees), build things, attack enemies
+
+Objectives: survive as long as possible
+
+Controls: arrow keys, spacebar for jump, mouse for destorying things/building/attacking
+
+Game inspiration: terraria
+
+Additional requirements:
+
+- Check the p5play documentation or source for the selected version before using its APIs 
+
+- Avoid using p5play-reserved property names (including physics and shape properties) for custom game data; store custom data under distinct names.
+
+- Make the game playable from start to finish.
+
+- Include a win and lose condition.
+
+- Keep the code simple, organised, and beginner-friendly

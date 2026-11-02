@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orbital Outpost</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.26.5/planck.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5play/3.26.5/p5play.js"></script>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    #game-canvas {
+      width: min(960px, 100%);
+      margin-top: 1.5rem;
+    }
+
+    #game-canvas canvas {
+      display: block;
+      width: 100% !important;
+      height: auto !important;
+      border: 2px solid #00ccff;
+      border-radius: 8px;
+    }
+
+    #start-button {
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      border: 2px solid #00ccff;
+      border-radius: 8px;
+      background: #111;
+      color: #00ccff;
+      font: inherit;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+
+    #start-button:hover,
+    #start-button:focus-visible {
+      background: #00ccff;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-links"><a href="../index.html">Home</a></div>
+  <h1>Orbital Outpost</h1>
+  <button id="start-button" type="button">Start Game</button>
+  <div id="game-canvas"></div>
+  <script src="game.js"></script>
+</body>
+</html>
